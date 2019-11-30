@@ -1,0 +1,21 @@
+[ {
+  "uid" : "d36fcf72b1c83c51",
+  "name" : "Add a post",
+  "time" : {
+    "start" : 1575076153647,
+    "stop" : 1575076170207,
+    "duration" : 16560
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6825c22e06f32160",
+  "name" : "Post without image can'y be added",
+  "time" : {
+    "start" : 1575076170311,
+    "stop" : 1575076173817,
+    "duration" : 3506
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.heisenbug.demo",
+    "children" : [ {
+      "name" : "Add a post",
+      "uid" : "d36fcf72b1c83c51",
+      "parentUid" : "35b2cd015879ad315fcbb2f7ff3fd624",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575076153647,
+        "stop" : 1575076170207,
+        "duration" : 16560
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Post without image can'y be added",
+      "uid" : "6825c22e06f32160",
+      "parentUid" : "35b2cd015879ad315fcbb2f7ff3fd624",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575076170311,
+        "stop" : 1575076173817,
+        "duration" : 3506
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.heisenbug.demo"
+  } ]
+}

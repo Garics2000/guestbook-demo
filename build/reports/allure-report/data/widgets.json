@@ -1,0 +1,62 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "time" : {
+      "start" : 1575076153647,
+      "stop" : 1575076173817,
+      "duration" : 20170,
+      "minDuration" : 3506,
+      "maxDuration" : 16560,
+      "sumDuration" : 20066
+    }
+  },
+  "environment" : [ ],
+  "suites" : {
+    "total" : 1,
+    "items" : [ {
+      "uid" : "542f1cb56ea3c5aafacdb3642d8d8e8f",
+      "name" : "com.heisenbug.demo.MainPageTest",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ],
+  "behaviors" : {
+    "total" : 2,
+    "items" : [ ]
+  },
+  "executors" : [ {
+    "name" : "Gradle",
+    "type" : "gradle",
+    "buildName" : "root project 'GuestBookUiTest'"
+  } ],
+  "categories" : {
+    "total" : 0,
+    "items" : [ ]
+  },
+  "launches" : [ ]
+}

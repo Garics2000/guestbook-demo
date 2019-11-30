@@ -8,11 +8,10 @@ import org.openqa.selenium.By
 
 open class Page {
 
-    val baseUrl = Configuration["base_url"]
+    private val baseUrl = Configuration["base_url"]
 
-    open fun navigate(): Page {
+    fun navigate() {
         Selenide.open(baseUrl)
-        return this
     }
 
     protected fun s(locator: String): SelenideElement {

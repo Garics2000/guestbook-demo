@@ -1,0 +1,252 @@
+{
+  "uid" : "68cfe080dce9cf55",
+  "name" : "Post without image can'y be added",
+  "fullName" : "com.heisenbug.demo.MainPageTest.Post without image can'y be added",
+  "historyId" : "5a6cce4c2049b3ffc702d05cfb9a3289",
+  "time" : {
+    "start" : 1575073273469,
+    "stop" : 1575073275232,
+    "duration" : 1763
+  },
+  "description" : "Main page demo test negative",
+  "descriptionHtml" : "<p>Main page demo test negative</p>\n",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(open) http://staging.guestbook.teamcity.com/",
+      "time" : {
+        "start" : 1575073273470,
+        "stop" : 1575073273685,
+        "duration" : 215
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(open) http://staging.guestbook.teamcity.com/",
+        "time" : {
+          "start" : 1575073273470,
+          "stop" : 1575073273685,
+          "duration" : 215
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(button) click()",
+      "time" : {
+        "start" : 1575073273686,
+        "stop" : 1575073273803,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(button) click()",
+        "time" : {
+          "start" : 1575073273686,
+          "stop" : 1575073273803,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(By.name: name) send keys(John Moore)",
+      "time" : {
+        "start" : 1575073273803,
+        "stop" : 1575073274008,
+        "duration" : 205
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.name: name) send keys(John Moore)",
+        "time" : {
+          "start" : 1575073273803,
+          "stop" : 1575073274008,
+          "duration" : 205
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(By.name: message) send keys(Test message)",
+      "time" : {
+        "start" : 1575073274008,
+        "stop" : 1575073274154,
+        "duration" : 146
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.name: message) send keys(Test message)",
+        "time" : {
+          "start" : 1575073274008,
+          "stop" : 1575073274154,
+          "duration" : 146
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(button[type='submit']) click()",
+      "time" : {
+        "start" : 1575073274154,
+        "stop" : 1575073274243,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(button[type='submit']) click()",
+        "time" : {
+          "start" : 1575073274154,
+          "stop" : 1575073274243,
+          "duration" : 89
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$([class*='errorText'][1]) text()",
+      "time" : {
+        "start" : 1575073274572,
+        "stop" : 1575073274613,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$([class*='errorText'][1]) text()",
+        "time" : {
+          "start" : 1575073274572,
+          "stop" : 1575073274613,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.heisenbug.demo"
+  }, {
+    "name" : "testClass",
+    "value" : "com.heisenbug.demo.MainPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Post without image can'y be added"
+  }, {
+    "name" : "suite",
+    "value" : "com.heisenbug.demo.MainPageTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Igor.local"
+  }, {
+    "name" : "thread",
+    "value" : "26248@MacBook-Pro-Igor.local.Test worker(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "68cfe080dce9cf55.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

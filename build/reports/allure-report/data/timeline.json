@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MacBook-Pro-Igor.local",
+    "children" : [ {
+      "name" : "26776@MacBook-Pro-Igor.local.Test worker(13)",
+      "children" : [ {
+        "name" : "Add a post",
+        "uid" : "d36fcf72b1c83c51",
+        "parentUid" : "1692f072f101f4351d69b0dc1a12d4f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575076153647,
+          "stop" : 1575076170207,
+          "duration" : 16560
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Post without image can'y be added",
+        "uid" : "6825c22e06f32160",
+        "parentUid" : "1692f072f101f4351d69b0dc1a12d4f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575076170311,
+          "stop" : 1575076173817,
+          "duration" : 3506
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1692f072f101f4351d69b0dc1a12d4f2"
+    } ],
+    "uid" : "5743759460e07d68a347682ef0c50e1f"
+  } ]
+}

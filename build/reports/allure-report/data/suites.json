@@ -1,0 +1,33 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "com.heisenbug.demo.MainPageTest",
+    "children" : [ {
+      "name" : "Add a post",
+      "uid" : "d36fcf72b1c83c51",
+      "parentUid" : "542f1cb56ea3c5aafacdb3642d8d8e8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575076153647,
+        "stop" : 1575076170207,
+        "duration" : 16560
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Post without image can'y be added",
+      "uid" : "6825c22e06f32160",
+      "parentUid" : "542f1cb56ea3c5aafacdb3642d8d8e8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575076170311,
+        "stop" : 1575076173817,
+        "duration" : 3506
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "542f1cb56ea3c5aafacdb3642d8d8e8f"
+  } ]
+}

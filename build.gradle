@@ -3,6 +3,8 @@ plugins {
     id 'io.qameta.allure' version '2.8.1'
 }
 
+apply plugin: 'io.qameta.allure'
+
 group 'org.example'
 version '1.0-SNAPSHOT'
 
@@ -13,6 +15,7 @@ sourceSets {
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
@@ -33,4 +36,9 @@ compileKotlin {
 }
 compileTestKotlin {
     kotlinOptions.jvmTarget = '1.8'
+}
+
+allure {
+    autoconfigure = true
+    version = '2.4.1'
 }

@@ -6,7 +6,7 @@ import org.openqa.selenium.By
 
 import org.openqa.selenium.support.FindBy
 
-class NewPostForm : ElementsContainer() {
+class NewPostForm {
 
     @FindBy(name = "name")
     private lateinit var name: SelenideElement
