@@ -2,20 +2,8 @@ package com.heisenbug.demo.pages
 
 import com.codeborne.selenide.Condition
 import com.codeborne.selenide.Condition.appears
-import com.codeborne.selenide.Condition.visible
-
-
 import com.codeborne.selenide.ElementsCollection
-import com.codeborne.selenide.Selenide
-import com.codeborne.selenide.Selenide.executeJavaScript
-import com.codeborne.selenide.SelenideElement
-import com.codeborne.selenide.impl.Html.text
-import com.heisenbug.demo.elements.NewPostForm
-import com.sun.tools.javac.Main
 import org.openqa.selenium.By
-import org.openqa.selenium.Keys
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.support.FindBy
 
 
 class MainPage : Page() {
