@@ -7,25 +7,25 @@
       "name" : "Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'unit-1723', ip: 'fe80:0:0:0:826:53c8:99c0:61a8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '1.8.0_221'\nselenide.remote: http://localhost:4444/wd/hub/\nDriver info: driver.version: SelenideDriver\nselenide.url: http://staging.guestbook.teamcity.com/\nselenide.baseUrl: http://localhost:8080",
       "children" : [ {
         "name" : "addGoodPost",
-        "uid" : "3851d304927fb164",
+        "uid" : "d3a8f3eb396876f0",
         "parentUid" : "e02733e352285590118ba736e0b91c2f",
         "status" : "broken",
         "time" : {
-          "start" : 1575306709957,
-          "stop" : 1575306710618,
-          "duration" : 661
+          "start" : 1575306950955,
+          "stop" : 1575306951582,
+          "duration" : 627
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "addBadPost",
-        "uid" : "e8d050ec4f31a599",
+        "uid" : "73cb7e128da2e226",
         "parentUid" : "e02733e352285590118ba736e0b91c2f",
         "status" : "broken",
         "time" : {
-          "start" : 1575306710705,
-          "stop" : 1575306710714,
-          "duration" : 9
+          "start" : 1575306951660,
+          "stop" : 1575306951670,
+          "duration" : 10
         },
         "flaky" : false,
         "parameters" : [ ]

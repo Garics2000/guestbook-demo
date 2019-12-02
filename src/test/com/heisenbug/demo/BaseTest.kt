@@ -65,6 +65,6 @@ abstract class BaseTest {
 
     private fun publishScreenshot(filename: String) {
 
-        print ("##teamcity[testMetadata testName='${name.javaClass.simpleName}.${filename}' type='image' value='reports/tests/${filename}.png']")
+        print ("##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.${name.methodName}' type='image' value='reports/tests/${filename}.png']")
     }
 }
