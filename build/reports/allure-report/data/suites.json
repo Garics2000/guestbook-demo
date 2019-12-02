@@ -5,25 +5,25 @@
     "name" : "com.heisenbug.demo.MainPageTest",
     "children" : [ {
       "name" : "addGoodPost",
-      "uid" : "4405f0ebf75d6c59",
+      "uid" : "7d571a1407d608ad",
       "parentUid" : "542f1cb56ea3c5aafacdb3642d8d8e8f",
       "status" : "broken",
       "time" : {
-        "start" : 1575308299877,
-        "stop" : 1575308300516,
-        "duration" : 639
+        "start" : 1575308530245,
+        "stop" : 1575308530867,
+        "duration" : 622
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "addBadPost",
-      "uid" : "4e48516ff0067cc3",
+      "uid" : "5e956f12c151dc4",
       "parentUid" : "542f1cb56ea3c5aafacdb3642d8d8e8f",
       "status" : "broken",
       "time" : {
-        "start" : 1575308300597,
-        "stop" : 1575308300607,
-        "duration" : 10
+        "start" : 1575308530954,
+        "stop" : 1575308530965,
+        "duration" : 11
       },
       "flaky" : false,
       "parameters" : [ ]

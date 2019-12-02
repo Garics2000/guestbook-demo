@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4405f0ebf75d6c59",
+      "uid" : "7d571a1407d608ad",
       "status" : "broken",
-      "statusDetails" : "Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'unit-1723', ip: 'fe80:0:0:0:826:53c8:99c0:61a8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '1.8.0_221'\nselenide.remote: http://localhost:4444/wd/hub/\nDriver info: driver.version: SelenideDriver\nselenide.url: http://staging.guestbook.teamcity.com/\nselenide.baseUrl: http://localhost:8080",
+      "statusDetails" : "Unsupported field: Year",
       "time" : {
-        "start" : 1575308299877,
-        "stop" : 1575308300516,
-        "duration" : 639
+        "start" : 1575308530245,
+        "stop" : 1575308530867,
+        "duration" : 622
       }
     } ]
   },
@@ -29,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4e48516ff0067cc3",
+      "uid" : "5e956f12c151dc4",
       "status" : "broken",
-      "statusDetails" : "Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'unit-1723', ip: 'fe80:0:0:0:826:53c8:99c0:61a8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '1.8.0_221'\nselenide.remote: http://localhost:4444/wd/hub/\nDriver info: driver.version: SelenideDriver\nselenide.url: http://staging.guestbook.teamcity.com/\nselenide.baseUrl: http://localhost:8080",
+      "statusDetails" : "Unsupported field: Year",
       "time" : {
-        "start" : 1575308300597,
-        "stop" : 1575308300607,
-        "duration" : 10
+        "start" : 1575308530954,
+        "stop" : 1575308530965,
+        "duration" : 11
       }
     } ]
   }

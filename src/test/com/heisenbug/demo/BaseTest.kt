@@ -64,6 +64,6 @@ abstract class BaseTest {
 
     private fun publishScreenshot(filename: String) {
 
-        print ("##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.${name.methodName}' type='image' value='build/reports/tests/${filename}.png' name='${name.methodName}' timestamp='${DateTimeFormatter.ISO_INSTANT.format(Instant.now())}']")
+        print ("##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.${name.methodName}' type='image' value='build/reports/tests/${filename}.png' name='${name.methodName}' timestamp='${DateTimeFormatter.ISO_LOCAL_DATE_TIME.format(Instant.now())}']")
     }
 }
