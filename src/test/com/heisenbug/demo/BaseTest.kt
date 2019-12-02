@@ -56,16 +56,16 @@ abstract class BaseTest {
 
     @After
     fun afterTest() {
-        val filename = name.methodName
-        screenshot(filename)
+        val testName = name.methodName
+        screenshot(testName)
 
         Selenide.close()
         Driver.tearDown()
 
         val publisher = MetadataPublisher("MainPageTest")
 
-        publisher.publishScreenshot(filename)
-        publisher.publishVideo()
+        publisher.publishScreenshot(testName)
+        publisher.publishVideo(testName)
     }
 
 }

@@ -1,15 +1,15 @@
 package com.heisenbug.demo.utils
 
-class MetadataPublisher(testName: String) {
+class MetadataPublisher(className: String) {
 
-    val testName: String = testName
+    val className: String = className
 
-    public fun publishScreenshot(filename: String) {
-        print ("##teamcity[testMetadata testName='com.heisenbug.demo.${testName}.${filename}' type='image' value='metadata/screenshots/${filename}.png' name='${filename}']")
+    public fun publishScreenshot(testName: String) {
+        print ("##teamcity[testMetadata testName='com.heisenbug.demo.$className.$testName' type='image' value='metadata/screenshots/$testName.png' name='$testName.png']")
     }
 
-    public fun publishVideo() {
+    public fun publishVideo(testName: String) {
         val filename = getLatestFile("video").name
-        print ("##teamcity[testMetadata testName='com.heisenbug.demo.${testName}.${filename}' type='video' value='metadata/videos/${filename}' name='${filename}']")
+        print ("##teamcity[testMetadata testName='com.heisenbug.demo.$className.$testName' type='video' value='metadata/videos/${filename}' name='${filename}']")
     }
 }
