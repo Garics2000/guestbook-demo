@@ -17,8 +17,7 @@ import com.codeborne.selenide.junit.ScreenShooter.failedTests
 import org.junit.After
 import java.time.Instant
 import org.junit.rules.TestName
-
-
+import java.time.format.DateTimeFormatter
 
 
 abstract class BaseTest {
@@ -65,6 +64,6 @@ abstract class BaseTest {
 
     private fun publishScreenshot(filename: String) {
 
-        print ("##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.${name.methodName}' type='image' value='reports/tests/${filename}.png']")
+        print ("##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.${name.methodName}' type='image' value='build/reports/tests/${filename}.png' name='${name.methodName}' timestamp='${DateTimeFormatter.ISO_INSTANT.format(Instant.now())}']")
     }
 }

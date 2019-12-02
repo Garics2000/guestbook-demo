@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.heisenbug.demo.MainPageTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2019-12-02T17:15:50" hostname="unit-1723" time="0.715">
+<testsuite name="com.heisenbug.demo.MainPageTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2019-12-02T17:38:19" hostname="unit-1723" time="0.732">
   <properties/>
-  <testcase name="addGoodPost" classname="com.heisenbug.demo.MainPageTest" time="0.701">
+  <testcase name="addGoodPost" classname="com.heisenbug.demo.MainPageTest" time="0.716">
     <failure message="org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'unit-1723', ip: 'fe80:0:0:0:826:53c8:99c0:61a8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '1.8.0_221'&#10;selenide.remote: http://localhost:4444/wd/hub/&#10;Driver info: driver.version: SelenideDriver&#10;selenide.url: http://staging.guestbook.teamcity.com/&#10;selenide.baseUrl: http://localhost:8080" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'unit-1723', ip: 'fe80:0:0:0:826:53c8:99c0:61a8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '1.8.0_221'
@@ -120,7 +120,7 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	... 95 more
 </failure>
   </testcase>
-  <testcase name="addBadPost" classname="com.heisenbug.demo.MainPageTest" time="0.01">
+  <testcase name="addBadPost" classname="com.heisenbug.demo.MainPageTest" time="0.012">
     <failure message="org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'unit-1723', ip: 'fe80:0:0:0:826:53c8:99c0:61a8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '1.8.0_221'&#10;selenide.remote: http://localhost:4444/wd/hub/&#10;Driver info: driver.version: SelenideDriver&#10;selenide.url: http://staging.guestbook.teamcity.com/&#10;selenide.baseUrl: http://localhost:8080" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'unit-1723', ip: 'fe80:0:0:0:826:53c8:99c0:61a8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '1.8.0_221'
@@ -239,7 +239,7 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	... 95 more
 </failure>
   </testcase>
-  <system-out><![CDATA[##teamcity[testMetadata testName='addGoodPost' type='image' value='reports/tests/addGoodPost.png']##teamcity[testMetadata testName='addBadPost' type='image' value='reports/tests/addBadPost.png']]]></system-out>
+  <system-out><![CDATA[##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.addGoodPost' type='image' value='build/reports/tests/addGoodPost.png' name='addGoodPost' timestamp='2019-12-02T17:38:20.507Z']##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.addBadPost' type='image' value='build/reports/tests/addBadPost.png' name='addBadPost' timestamp='2019-12-02T17:38:20.605Z']]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.

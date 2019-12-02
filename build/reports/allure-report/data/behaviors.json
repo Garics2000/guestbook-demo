@@ -3,24 +3,24 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "addGoodPost",
-    "uid" : "d3a8f3eb396876f0",
+    "uid" : "4405f0ebf75d6c59",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1575306950955,
-      "stop" : 1575306951582,
-      "duration" : 627
+      "start" : 1575308299877,
+      "stop" : 1575308300516,
+      "duration" : 639
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "addBadPost",
-    "uid" : "73cb7e128da2e226",
+    "uid" : "4e48516ff0067cc3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1575306951660,
-      "stop" : 1575306951670,
+      "start" : 1575308300597,
+      "stop" : 1575308300607,
       "duration" : 10
     },
     "flaky" : false,
