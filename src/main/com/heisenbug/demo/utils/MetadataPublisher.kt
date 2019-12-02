@@ -10,6 +10,6 @@ class MetadataPublisher(testName: String) {
 
     public fun publishVideo() {
         val filename = getLatestFile("video")
-        print ("##teamcity[testMetadata testName='com.heisenbug.demo.${testName}.${filename}' type='video' value='${filename}.png' name='${filename}']")
+        print ("##teamcity[testMetadata testName='com.heisenbug.demo.${testName}.${filename}' type='video' value='${filename}' name='${filename}']")
     }
 }
