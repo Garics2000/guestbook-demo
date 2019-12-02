@@ -31,6 +31,10 @@ dependencies {
 
 }
 
+test {
+    finalizedBy allureReport
+}
+
 compileKotlin {
     kotlinOptions.jvmTarget = '1.8'
 }
