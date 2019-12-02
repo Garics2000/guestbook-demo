@@ -9,7 +9,7 @@ class MainPageTest : BaseTest() {
 
     @Test
     @Description("Main page demo test positive")
-    fun `Add a post`() {
+    fun addGoodPost() {
         //val imgUrl = "https://images.unsplash.com/photo-1500100586562-f75ff6540087?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"
         val imgUrl = "https://raw.githubusercontent.com/openimages/dataset/master/assets/label-frequencies-total.png"
         val mainPage = MainPage()
@@ -27,7 +27,7 @@ class MainPageTest : BaseTest() {
 
     @Test
     @Description("Main page demo test negative")
-    fun `Post without image can't be added`() {
+    fun addBadPost() {
         val mainPage = MainPage()
         mainPage.navigate()
 

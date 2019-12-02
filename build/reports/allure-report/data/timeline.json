@@ -4,33 +4,33 @@
   "children" : [ {
     "name" : "unit-1723",
     "children" : [ {
-      "name" : "6371@unit-1723.Test worker(19)",
+      "name" : "9495@unit-1723.Test worker(19)",
       "children" : [ {
-        "name" : "Post without image can't be added",
-        "uid" : "f600419170f4cd44",
-        "parentUid" : "4698ca25764b9c624968e75648f4cce8",
-        "status" : "passed",
+        "name" : "addBadPost",
+        "uid" : "e8d050ec4f31a599",
+        "parentUid" : "1af91b37c69a2eacfef60ce0f276e611",
+        "status" : "broken",
         "time" : {
-          "start" : 1575295192826,
-          "stop" : 1575295193736,
-          "duration" : 910
+          "start" : 1575306710705,
+          "stop" : 1575306710714,
+          "duration" : 9
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Add a post",
-        "uid" : "383d2a497cd2e858",
-        "parentUid" : "4698ca25764b9c624968e75648f4cce8",
-        "status" : "passed",
+        "name" : "addGoodPost",
+        "uid" : "3851d304927fb164",
+        "parentUid" : "1af91b37c69a2eacfef60ce0f276e611",
+        "status" : "broken",
         "time" : {
-          "start" : 1575295177181,
-          "stop" : 1575295192746,
-          "duration" : 15565
+          "start" : 1575306709957,
+          "stop" : 1575306710618,
+          "duration" : 661
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "4698ca25764b9c624968e75648f4cce8"
+      "uid" : "1af91b37c69a2eacfef60ce0f276e611"
     } ],
     "uid" : "9bbca18b80d120a02c2e7189dc145c39"
   } ]

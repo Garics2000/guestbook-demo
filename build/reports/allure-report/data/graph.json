@@ -1,21 +1,21 @@
 [ {
-  "uid" : "f600419170f4cd44",
-  "name" : "Post without image can't be added",
+  "uid" : "e8d050ec4f31a599",
+  "name" : "addBadPost",
   "time" : {
-    "start" : 1575295192826,
-    "stop" : 1575295193736,
-    "duration" : 910
+    "start" : 1575306710705,
+    "stop" : 1575306710714,
+    "duration" : 9
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "383d2a497cd2e858",
-  "name" : "Add a post",
+  "uid" : "3851d304927fb164",
+  "name" : "addGoodPost",
   "time" : {
-    "start" : 1575295177181,
-    "stop" : 1575295192746,
-    "duration" : 15565
+    "start" : 1575306709957,
+    "stop" : 1575306710618,
+    "duration" : 661
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 } ]

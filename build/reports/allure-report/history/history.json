@@ -1,39 +1,41 @@
 {
-  "81d289b538c6b0006decb85ddbd88a0b" : {
+  "a1a43e27b6c3147b72283bf7b0069a80" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f600419170f4cd44",
-      "status" : "passed",
+      "uid" : "3851d304927fb164",
+      "status" : "broken",
+      "statusDetails" : "Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'unit-1723', ip: 'fe80:0:0:0:826:53c8:99c0:61a8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '1.8.0_221'\nselenide.remote: http://localhost:4444/wd/hub/\nDriver info: driver.version: SelenideDriver\nselenide.url: http://staging.guestbook.teamcity.com/\nselenide.baseUrl: http://localhost:8080",
       "time" : {
-        "start" : 1575295192826,
-        "stop" : 1575295193736,
-        "duration" : 910
+        "start" : 1575306709957,
+        "stop" : 1575306710618,
+        "duration" : 661
       }
     } ]
   },
-  "b2bd32db6f8e5164ce026ef7dbd9da5a" : {
+  "fb306957128c11a1698bcf905e9ebd25" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "383d2a497cd2e858",
-      "status" : "passed",
+      "uid" : "e8d050ec4f31a599",
+      "status" : "broken",
+      "statusDetails" : "Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'unit-1723', ip: 'fe80:0:0:0:826:53c8:99c0:61a8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '1.8.0_221'\nselenide.remote: http://localhost:4444/wd/hub/\nDriver info: driver.version: SelenideDriver\nselenide.url: http://staging.guestbook.teamcity.com/\nselenide.baseUrl: http://localhost:8080",
       "time" : {
-        "start" : 1575295177181,
-        "stop" : 1575295192746,
-        "duration" : 15565
+        "start" : 1575306710705,
+        "stop" : 1575306710714,
+        "duration" : 9
       }
     } ]
   }
