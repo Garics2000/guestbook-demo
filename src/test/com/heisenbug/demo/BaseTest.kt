@@ -8,15 +8,11 @@ import com.codeborne.selenide.logevents.SelenideLogger.addListener
 import com.codeborne.selenide.logevents.SelenideLogger.removeListener
 import com.heisenbug.demo.config.Configuration
 import com.heisenbug.demo.config.Driver
-import io.qameta.allure.Allure.step
 import io.qameta.allure.selenide.AllureSelenide
 import org.junit.rules.TestRule
-import com.codeborne.selenide.junit.ScreenShooter.failedTests
 import org.junit.*
-import java.time.Instant
 import org.junit.rules.TestName
-import java.time.format.DateTimeFormatter
-
+import java.io.File
 
 abstract class BaseTest {
     @Rule
@@ -58,16 +54,31 @@ abstract class BaseTest {
 
     @After
     fun afterTest() {
-        //val filename = Instant.now().toString()
         val filename = name.methodName
         screenshot(filename)
+
         publishScreenshot(filename)
+        publishVideo()
+
         Selenide.close()
         Driver.tearDown()
     }
 
     private fun publishScreenshot(filename: String) {
-
         print ("##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.${name.methodName}' type='image' value='${filename}.png' name='${name.methodName}']")
+    }
+
+    private fun publishVideo() {
+        val filename = getLatestRecord()
+        print ("##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.${name.methodName}' type='image' value='${filename}.png' name='${name.methodName}']")
+    }
+
+    private fun getLatestRecord(dir: String) : File {
+
+        val files: MutableList<File> = File(dir).listFiles().toMutableList()
+        files.filter { it.extension == "jpg" }
+        files.sortByDescending({ it.lastModified()})
+
+        return files.first()
     }
 }
