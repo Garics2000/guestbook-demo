@@ -2,36 +2,36 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "MacBook-Pro-Igor.local",
+    "name" : "unit-1723",
     "children" : [ {
-      "name" : "26776@MacBook-Pro-Igor.local.Test worker(13)",
+      "name" : "6371@unit-1723.Test worker(19)",
       "children" : [ {
-        "name" : "Add a post",
-        "uid" : "d36fcf72b1c83c51",
-        "parentUid" : "1692f072f101f4351d69b0dc1a12d4f2",
+        "name" : "Post without image can't be added",
+        "uid" : "f600419170f4cd44",
+        "parentUid" : "4698ca25764b9c624968e75648f4cce8",
         "status" : "passed",
         "time" : {
-          "start" : 1575076153647,
-          "stop" : 1575076170207,
-          "duration" : 16560
+          "start" : 1575295192826,
+          "stop" : 1575295193736,
+          "duration" : 910
         },
-        "flaky" : true,
+        "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Post without image can'y be added",
-        "uid" : "6825c22e06f32160",
-        "parentUid" : "1692f072f101f4351d69b0dc1a12d4f2",
+        "name" : "Add a post",
+        "uid" : "383d2a497cd2e858",
+        "parentUid" : "4698ca25764b9c624968e75648f4cce8",
         "status" : "passed",
         "time" : {
-          "start" : 1575076170311,
-          "stop" : 1575076173817,
-          "duration" : 3506
+          "start" : 1575295177181,
+          "stop" : 1575295192746,
+          "duration" : 15565
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1692f072f101f4351d69b0dc1a12d4f2"
+      "uid" : "4698ca25764b9c624968e75648f4cce8"
     } ],
-    "uid" : "5743759460e07d68a347682ef0c50e1f"
+    "uid" : "9bbca18b80d120a02c2e7189dc145c39"
   } ]
 }

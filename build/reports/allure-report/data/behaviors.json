@@ -3,25 +3,25 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Add a post",
-    "uid" : "d36fcf72b1c83c51",
+    "uid" : "383d2a497cd2e858",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1575076153647,
-      "stop" : 1575076170207,
-      "duration" : 16560
+      "start" : 1575295177181,
+      "stop" : 1575295192746,
+      "duration" : 15565
     },
-    "flaky" : true,
+    "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Post without image can'y be added",
-    "uid" : "6825c22e06f32160",
+    "name" : "Post without image can't be added",
+    "uid" : "f600419170f4cd44",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1575076170311,
-      "stop" : 1575076173817,
-      "duration" : 3506
+      "start" : 1575295192826,
+      "stop" : 1575295193736,
+      "duration" : 910
     },
     "flaky" : false,
     "parameters" : [ ]

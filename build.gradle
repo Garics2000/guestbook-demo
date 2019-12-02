@@ -32,7 +32,7 @@ dependencies {
 }
 
 test {
-    finalizedBy allureReport
+    finalizedBy "allureReport"
 }
 
 compileKotlin {

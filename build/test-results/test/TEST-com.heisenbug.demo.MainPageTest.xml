@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.heisenbug.demo.MainPageTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-12-02T11:37:24" hostname="unit-1723" time="16.053">
+<testsuite name="com.heisenbug.demo.MainPageTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-12-02T13:59:37" hostname="unit-1723" time="16.554">
   <properties/>
-  <testcase name="Add a post" classname="com.heisenbug.demo.MainPageTest" time="15.136"/>
+  <testcase name="Add a post" classname="com.heisenbug.demo.MainPageTest" time="15.638"/>
   <testcase name="Post without image can't be added" classname="com.heisenbug.demo.MainPageTest" time="0.91"/>
   <system-out><![CDATA[##teamcity[testMetadata testName='test.name' type='image' value='path/to/screenshot.png']##teamcity[testMetadata testName='test.name' type='image' value='path/to/screenshot.png']]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-дек 02, 2019 2:37:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+дек 02, 2019 4:59:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
