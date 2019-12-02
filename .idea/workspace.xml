@@ -33,60 +33,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf74d114-c9c3-4772-be10-fed858b26c5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/3748a1ba2acacbf6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/3c90d60e889b52f8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/4f00ff4d44fc4153.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/52d453fe22393ad0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/564ad8e6d5cab66e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/59a053628f37e689.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/68eebbb15ea053dc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/788893afe2d7a99b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/7ac904366605f4b4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/830de0abd5cdc38e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/8398e8eeda68123b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/87ad4e1fb826c958.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/8f6bc68c1652c1ee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/9e48c65df6a9c33f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/a2674d360a6dee86.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/ad23027b44a2b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/ad4b4d8b14425c65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/c4154a6f5654e33a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/d211c2cb5b46e553.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/attachments/ecf7c0550198976e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/allure-report/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/allure-report/data/graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/allure-report/data/packages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/allure-report/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/3051345654ee7538.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/5371d2056d8ae4a6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/6825c22e06f32160.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/68cfe080dce9cf55.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/804e30b297f2d114.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/be97737ba0f55fad.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/d36fcf72b1c83c51.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/test-cases/d7b07fbeb3ca30d3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/allure-report/data/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/data/widgets.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/allure-report/data/widgets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/export/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/allure-report/export/summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/allure-report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/allure-report/history/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/Add a post.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/Add a post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/Add a post.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/Add a post.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/Post without image can't be added.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/Post without image can't be added.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/Post without image can't be added.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/Post without image can't be added.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.heisenbug.demo.MainPageTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.heisenbug.demo.MainPageTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.heisenbug.demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.heisenbug.demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.heisenbug.demo.MainPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.heisenbug.demo.MainPageTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,7 +231,7 @@
       <workItem from="1575023116315" duration="1544000" />
       <workItem from="1575025695370" duration="4398000" />
       <workItem from="1575033497975" duration="15129000" />
-      <workItem from="1575283874745" duration="1505000" />
+      <workItem from="1575283874745" duration="1611000" />
     </task>
     <servers />
   </component>
