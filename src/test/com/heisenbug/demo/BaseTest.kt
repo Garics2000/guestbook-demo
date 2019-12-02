@@ -62,7 +62,7 @@ abstract class BaseTest {
         Selenide.close()
         Driver.tearDown()
 
-        val publisher = MetadataPublisher()
+        val publisher = MetadataPublisher("MainPageTest")
 
         publisher.publishScreenshot(filename)
         publisher.publishVideo()
