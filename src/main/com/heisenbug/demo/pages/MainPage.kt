@@ -20,11 +20,8 @@ class MainPage : Page() {
           s(By.name("name")).sendKeys(name)
           s(By.name("message")).sendKeys(message)
           s(By.name("imageUrl")).click()
-          //executeJavaScript<Unit>("document.getElementsByName('imageUrl')[0].setAttribute('value', '${imageUrl}');")
           s(By.name("imageUrl")).sendKeys(imageUrl)
-          //s(By.name("imageUrl")).pressEnter()
-          //executeJavaScript("document.getElementById('idelem').setAttribute('value','value');")
-          s(By.cssSelector("[class*='GuestbookForm__image']")).waitUntil(appears, 10000)
+          s(By.cssSelector("[class*='GuestbookForm__image']")).waitUntil(appears, 15000)
           s("button[type='submit']").click()
 
           this.timeLabels.get(0).waitUntil(Condition.text("a few seconds ago"), 10000)
