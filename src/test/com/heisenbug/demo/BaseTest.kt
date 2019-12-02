@@ -64,6 +64,6 @@ abstract class BaseTest {
 
     private fun publishScreenshot(filename: String) {
 
-        print ("##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.${name.methodName}' type='image' value='build/reports/tests/${filename}.png' name='${name.methodName}']")
+        print ("##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.${name.methodName}' type='image' value='${filename}.png' name='${name.methodName}']")
     }
 }
