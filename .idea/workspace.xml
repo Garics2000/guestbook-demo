@@ -33,7 +33,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf74d114-c9c3-4772-be10-fed858b26c5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browsers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.selenoid.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +233,7 @@
       <workItem from="1575023116315" duration="1544000" />
       <workItem from="1575025695370" duration="4398000" />
       <workItem from="1575033497975" duration="15129000" />
-      <workItem from="1575283874745" duration="1611000" />
+      <workItem from="1575283874745" duration="3074000" />
     </task>
     <servers />
   </component>
