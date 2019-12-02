@@ -69,8 +69,8 @@ abstract class BaseTest {
     }
 
     private fun publishVideo() {
-        val filename = getLatestRecord()
-        print ("##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.${name.methodName}' type='image' value='${filename}.png' name='${name.methodName}']")
+        val filename = getLatestRecord("video")
+        print ("##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.${name.methodName}' type='video' value='${filename}.png' name='${name.methodName}']")
     }
 
     private fun getLatestRecord(dir: String) : File {
