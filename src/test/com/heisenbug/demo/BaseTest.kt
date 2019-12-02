@@ -1,5 +1,6 @@
 package com.heisenbug.demo
 
+import com.codeborne.selenide.Selenide
 import com.codeborne.selenide.Selenide.screenshot
 import com.codeborne.selenide.junit.ScreenShooter
 import com.codeborne.selenide.junit.TextReport
@@ -9,12 +10,9 @@ import com.heisenbug.demo.config.Configuration
 import com.heisenbug.demo.config.Driver
 import io.qameta.allure.Allure.step
 import io.qameta.allure.selenide.AllureSelenide
-import org.junit.AfterClass
-import org.junit.BeforeClass
-import org.junit.Rule
 import org.junit.rules.TestRule
 import com.codeborne.selenide.junit.ScreenShooter.failedTests
-import org.junit.After
+import org.junit.*
 import java.time.Instant
 import org.junit.rules.TestName
 import java.time.format.DateTimeFormatter
@@ -39,7 +37,7 @@ abstract class BaseTest {
         @BeforeClass
         @JvmStatic
         fun beforeClass() {
-            Driver.setUp(browser, version)
+
             addListener("allure", AllureSelenide())
             addListener("AllureSelenide",
                 AllureSelenide().screenshots(true).savePageSource(false))
@@ -48,10 +46,14 @@ abstract class BaseTest {
         @AfterClass
         @JvmStatic
         fun afterClass() {
-            Driver.tearDown()
             removeListener<AllureSelenide>("allure")
         }
 
+    }
+
+    @Before
+    fun beforeTest() {
+        Driver.setUp(browser, version)
     }
 
     @After
@@ -60,6 +62,8 @@ abstract class BaseTest {
         val filename = name.methodName
         screenshot(filename)
         publishScreenshot(filename)
+        Selenide.close()
+        Driver.tearDown()
     }
 
     private fun publishScreenshot(filename: String) {

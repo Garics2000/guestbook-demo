@@ -1,37 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "Unsupported field: Year",
-      "children" : [ {
-        "name" : "addGoodPost",
-        "uid" : "7d571a1407d608ad",
-        "parentUid" : "897b84f6b4cad33aaea1fbdd367da8e4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1575308530245,
-          "stop" : 1575308530867,
-          "duration" : 622
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addBadPost",
-        "uid" : "5e956f12c151dc4",
-        "parentUid" : "897b84f6b4cad33aaea1fbdd367da8e4",
-        "status" : "broken",
-        "time" : {
-          "start" : 1575308530954,
-          "stop" : 1575308530965,
-          "duration" : 11
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "897b84f6b4cad33aaea1fbdd367da8e4"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  "children" : [ ]
 }

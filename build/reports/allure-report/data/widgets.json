@@ -4,19 +4,19 @@
     "testRuns" : [ ],
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 2,
       "unknown" : 0,
       "total" : 2
     },
     "time" : {
-      "start" : 1575308530245,
-      "stop" : 1575308530965,
-      "duration" : 720,
-      "minDuration" : 11,
-      "maxDuration" : 622,
-      "sumDuration" : 633
+      "start" : 1575317254549,
+      "stop" : 1575317274968,
+      "duration" : 20419,
+      "minDuration" : 7714,
+      "maxDuration" : 12582,
+      "sumDuration" : 20296
     }
   },
   "environment" : [ ],
@@ -27,9 +27,9 @@
       "name" : "com.heisenbug.demo.MainPageTest",
       "statistic" : {
         "failed" : 0,
-        "broken" : 2,
+        "broken" : 0,
         "skipped" : 0,
-        "passed" : 0,
+        "passed" : 2,
         "unknown" : 0,
         "total" : 2
       }
@@ -38,9 +38,9 @@
   "history-trend" : [ {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 2,
       "unknown" : 0,
       "total" : 2
     }
@@ -55,19 +55,8 @@
     "buildName" : "root project 'GuestBookUiTest'"
   } ],
   "categories" : {
-    "total" : 1,
-    "items" : [ {
-      "uid" : "bdbf199525818fae7a8651db9eafe741",
-      "name" : "Test defects",
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 2,
-        "skipped" : 0,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 2
-      }
-    } ]
+    "total" : 0,
+    "items" : [ ]
   },
   "launches" : [ ]
 }

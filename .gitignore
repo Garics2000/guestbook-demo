@@ -1,3 +1,5 @@
 .gradle
-build
 .allure
+.idea
+build
+video/*

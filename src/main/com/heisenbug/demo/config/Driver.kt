@@ -6,7 +6,7 @@ import com.codeborne.selenide.Configuration
 object Driver {
 
     // Setting up Selenide to use remote Selenoid's hub
-    fun setUp(browser: String, version: String, enableVnc: Boolean = true, enableVideo: Boolean = false) {
+    fun setUp(browser: String, version: String, enableVnc: Boolean = true, enableVideo: Boolean = true) {
         val hubUrl = CoreConfiguration["hub_url"]
         Configuration.driverManagerEnabled = false
         Configuration.remote = hubUrl
