@@ -8,11 +8,13 @@ import com.codeborne.selenide.logevents.SelenideLogger.addListener
 import com.codeborne.selenide.logevents.SelenideLogger.removeListener
 import com.heisenbug.demo.config.Configuration
 import com.heisenbug.demo.config.Driver
+import com.heisenbug.demo.utils.MetadataPublisher
+
 import io.qameta.allure.selenide.AllureSelenide
 import org.junit.rules.TestRule
 import org.junit.*
 import org.junit.rules.TestName
-import java.io.File
+
 
 abstract class BaseTest {
     @Rule
@@ -57,28 +59,13 @@ abstract class BaseTest {
         val filename = name.methodName
         screenshot(filename)
 
-        publishScreenshot(filename)
-        publishVideo()
-
         Selenide.close()
         Driver.tearDown()
+
+        val publisher = MetadataPublisher()
+
+        publisher.publishScreenshot(filename)
+        publisher.publishVideo()
     }
 
-    private fun publishScreenshot(filename: String) {
-        print ("##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.${name.methodName}' type='image' value='${filename}.png' name='${name.methodName}']")
-    }
-
-    private fun publishVideo() {
-        val filename = getLatestRecord("video")
-        print ("##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.${name.methodName}' type='video' value='${filename}.png' name='${name.methodName}']")
-    }
-
-    private fun getLatestRecord(dir: String) : File {
-
-        val files: MutableList<File> = File(dir).listFiles().toMutableList()
-        files.filter { it.extension == "jpg" }
-        files.sortByDescending({ it.lastModified()})
-
-        return files.first()
-    }
 }

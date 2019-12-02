@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.heisenbug.demo.MainPageTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-12-02T20:07:34" hostname="MacBook-Pro-Igor.local" time="20.422">
+<testsuite name="com.heisenbug.demo.MainPageTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-12-02T20:56:28" hostname="MacBook-Pro-Igor.local" time="22.956">
   <properties/>
-  <testcase name="addGoodPost" classname="com.heisenbug.demo.MainPageTest" time="12.699"/>
-  <testcase name="addBadPost" classname="com.heisenbug.demo.MainPageTest" time="7.717"/>
-  <system-out><![CDATA[##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.addGoodPost' type='image' value='addGoodPost.png' name='addGoodPost']##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.addBadPost' type='image' value='addBadPost.png' name='addBadPost']]]></system-out>
+  <testcase name="addGoodPost" classname="com.heisenbug.demo.MainPageTest" time="13.689"/>
+  <testcase name="addBadPost" classname="com.heisenbug.demo.MainPageTest" time="9.261"/>
+  <system-out><![CDATA[##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.addGoodPost' type='image' value='addGoodPost.png' name='addGoodPost']##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.addGoodPost' type='video' value='video/selenoidc783b31598f73d545e4e46ce508ea3e1.mp4.png' name='addGoodPost']##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.addBadPost' type='image' value='addBadPost.png' name='addBadPost']##teamcity[testMetadata testName='com.heisenbug.demo.MainPageTest.addBadPost' type='video' value='video/selenoidadad58dfb5270b0a33841b25d568fc58.mp4.png' name='addBadPost']]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-дек. 02, 2019 11:07:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+дек. 02, 2019 11:56:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-дек. 02, 2019 11:07:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+дек. 02, 2019 11:56:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
